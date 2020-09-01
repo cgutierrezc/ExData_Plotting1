@@ -21,7 +21,7 @@ hhpc$Sub_metering_2<-as.numeric(hhpc$Sub_metering_2)
 hhpc$Sub_metering_3<-as.numeric(hhpc$Sub_metering_3)
 
 ## We plot sub metering time series graphic
-png(file="plot3.png")
+png(file="plot3.png", width = 480, height = 480)
 
 with(hhpc,plot(DateTime,Sub_metering_1,
                     ylab="Energy sub metering",

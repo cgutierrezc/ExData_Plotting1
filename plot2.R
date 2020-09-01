@@ -19,7 +19,7 @@ hhpc <- subset(hhpc, Date>='2007-02-01' & Date<='2007-02-02')
 hhpc$Global_active_power<-as.numeric(hhpc$Global_active_power)
 
 ## We plot Global active power usage time series graphic
-png(file="plot2.png")
+png(file="plot2.png", width = 480, height = 480)
 
 with(hhpc,plot(DateTime,Global_active_power,type="l",
                     xlab="",ylab="Global Active Power (kilowatts)"))

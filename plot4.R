@@ -27,7 +27,7 @@ hhpc$Sub_metering_3<-as.numeric(hhpc$Sub_metering_3)
 
 ## We plot four graphics for active power usage, sub metering, voltage 
 ## and reactive power usage variables.
-png(file="plot4.png")
+png(file="plot4.png", width = 480, height = 480)
 
 #Layout 2 rows, 2 columns
 par(mfrow=c(2,2), mar=c(4,4,2,1), oma=c(0,0,2,0))
