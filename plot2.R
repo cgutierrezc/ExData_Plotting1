@@ -24,4 +24,3 @@ png(file="plot2.png")
 with(hhpc,plot(DateTime,Global_active_power,type="l",
                     xlab="",ylab="Global Active Power (kilowatts)"))
 dev.off()
-
